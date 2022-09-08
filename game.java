@@ -15,5 +15,28 @@ public class game
  	    Random r=new Random();
 	    int result = r.nextInt(6);
         System.out.println("You Rolled Die: "+result);
+        switch (result) {
+		case 0:
+			System.out.println("No play");
+			break;
+		case 1:
+			System.out.println("The player moves 1 position");
+			break;
+		case 2:
+			System.out.println("The player moves 2 position");
+			break;
+		case 3:
+			System.out.println("The player moves 3 position");
+			break;
+		case 4:
+			System.out.println("The player moves 4 position");
+			break;
+		case 5:
+			System.out.println("The player moves 5 position");
+			break;
+		case 6:
+			System.out.println("The player moves 6 position");
+			break;
     }
+}
 }
